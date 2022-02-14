@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Freshly is an AI-powered food subscription that will make you eat healthy again, 365 days per year. It's tailored to your personal tastes and nutritional needs.">
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="./css/general.css"/>
+    <link rel="stylesheet" href="./css/queries.css">
+    <!-- Favicon -->
+    <link rel="icon" href="Freshly-favicon.png">
+    <!-- Allowing users to add to favorites on iOS and Android devices -->
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <!-- For android devices we use the manifest.webmanifest file to access favorites -->
+    <link rel="manifest" href="manifest.webmanifest">
+    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+    <!-- Scroll reveal CDN  -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Freshly &mdash; Healthy food delivered!</title>
+</head>
+<body>        
+        <header class="header">
+            <a href="index.html">
+                <img src="logoFull1.svg" alt="Freshly-logo" class="logo1">
+            </a>
+            <nav class="main-nav">
+                <ul class="main-nav-list">
+                    <li><a class="main-nav-link" href="index.html#meals">Meals</a></li>
+                    <li><a class="main-nav-link" href="index.html#testimonials">Testimonials</a></li>
+                    <li><a class="main-nav-link nav-cta" href="index.html#pricing">Pricing</a></li>
+                </ul>
+            </nav>
+            
+            <button class="btn-mobile-nav">
+                <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>    
+                <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>    
+            </button>
+        </header>
+        
+        <main>
+            <section class="section-hero">
+                <div class="hero">
+                    <div class="hero-text-box animate-from-left">
+                        <h1 class="heading-primary thanks-html-page">Thank You for choosing Freshly!</h1>
+                        <h2 class="subheading">We will cover your first meal free</h2>
+                        <p class="hero-description">The yearly food subscription that will help you healthy again. Tailored to your personal tastes and nutritional needs. We have delivered 10,000+ meals last year!</p>
+                        <a href="index.html#pricing" id="hero-btn" class="btn btn--full margin-right-sm">Custom plans</a>
+                        
+                        <div class="delivered-meals">
+                            <div class="delivered-imgs">
+                                <img src="img/customers/customer-1.jpg" alt="customer-photo">
+                                <img src="img/customers/customer-2.jpg" alt="customer-photo">
+                                <img src="img/customers/customer-3.jpg" alt="customer-photo">
+                                <img src="img/customers/customer-4.jpg" alt="customer-photo">
+                                <img src="img/customers/customer-5.jpg" alt="customer-photo">
+                            </div>
+                            <p class="delivered-text"><span>10,000+</span> meals last year!</p>
+                        </div>
+                    </div>
+                    <div class="hero-img-box">
+                        <!-- compressed hero image options using webp and swoosh.app or resized img -->
+                        <div class="gallery animate-from-right">
+                            <figure class="gallery-item">
+                                <img src="img/gallery/gallery-1.jpg" alt="food-images">
+                            </figure>
+                            <figure class="gallery-item">
+                                <img src="img/gallery/gallery-2.jpg" alt="food-images">
+                            </figure>
+                            <figure class="gallery-item">
+                                <img src="img/gallery/gallery-3.jpg" alt="food-images">
+                            </figure>
+                            <figure class="gallery-item">
+                                <img src="img/gallery/gallery-4.jpg" alt="food-images">
+                            </figure>
+                            <figure class="gallery-item">
+                                <img src="img/gallery/gallery-5.jpg" alt="food-images">
+                            </figure>
+                            <figure class="gallery-item">
+                                <img src="img/gallery/gallery-6.jpg" alt="food-images">
+                            </figure>
+                            <figure class="gallery-item">
+                                <img src="img/gallery/gallery-7.jpg" alt="food-images">
+                            </figure>
+                            <figure class="gallery-item">
+                                <img src="img/gallery/gallery-8.jpg" alt="food-images">
+                            </figure>
+                            <figure class="gallery-item">
+                                <img src="img/gallery/gallery-9.jpg" alt="food-images">
+                            </figure>
+                            <figure class="gallery-item">
+                                <img src="img/gallery/gallery-10.jpg" alt="food-images">
+                            </figure>
+                            <figure class="gallery-item">
+                                <img src="img/gallery/gallery-11.jpg" alt="food-images">  
+                            </figure>
+                            </figure>
+                            <figure class="gallery-item">
+                                <img src="img/gallery/gallery-12.jpg" alt="food-images">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>   
+        </main>
+
+        <!-- FOOTER SECTION -->
+        <footer class="footer animate-from-top">
+            <div class="container grid grid--footer">
+                <div class="logo-col">
+                    <a href="#" class="footer-logo">
+                        <img class="logo1F" src="logo.svg" alt="freshly-logo"/>
+                    </a>
+    
+                    <ul class="social-links">
+                        <li>
+                            <a class="footer-link" href="#"><ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="footer-link" href="#"><ion-icon  class="social-icon"name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="footer-link" href="#"><ion-icon class="social-icon" name="logo-twitter"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+    
+                    <p class="copyright">Copyright &copy; <span class="year">2021</span> by Freshly, Inc. All rights reserved.</p>
+                </div>
+                <!-- COLUMN 1 -->
+                <div class="address-col">
+                    <p class="footer-heading">Contact us</p>
+                    <address class="contacts">
+                        <p class="address">
+                            San Francisco, CA 94107
+                        </p>
+                        <p>
+                            <a class="footer-link" href="tel:123-456-789">123-456-7890</a>
+                            <br>
+                            <a class="footer-link" href="mailto:hello@email.com">helloFresh@email.com</a>
+                        </p>
+                    </address>
+                </div>
+    
+                <!-- COLUMN 2 -->
+                <nav class="nav-col">
+                    <p class="footer-heading">Account</p>
+                    <ul class="footer-nav">
+                        <li><a class="footer-link" href="#">Create Account</a></li>
+                        <li><a class="footer-link" href="#">Sign in</a></li>
+                        <li><a class="footer-link" href="#">iOS app</a></li>
+                        <li><a class="footer-link" href="#">Android app</a></li>
+                    </ul>
+                </nav>
+                <nav class="nav-col">
+                    <p class="footer-heading">Company</p>
+                    <ul class="footer-nav">
+                        <li><a class="footer-link" href="#">About Freshly</a></li>
+                        <li><a class="footer-link" href="#">For Business</a></li>
+                        <li><a class="footer-link" href="#">Cooking partners</a></li>
+                        <li><a class="footer-link" href="#">Careers</a></li>
+                    </ul>
+                </nav>
+                <nav class="nav-col">
+                    <p class="footer-heading">Resources</p>
+                    <ul class="footer-nav">
+                        <li><a class="footer-link" href="#">Recipe directory</a></li>
+                        <li><a class="footer-link" href="#">Help center</a></li>
+                        <li><a class="footer-link" href="#">Privacy & terms</a></li>
+                    </ul>
+                </nav>
+            </div>
+            </footer>
+    <!-- MODULES-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="thanks.js"></script>
+  </body>
+</html>
